@@ -17,12 +17,18 @@ ul {
   line-height: 80px;
 }
 
+
 ul.navbar-menu li,
 ul.navbar-language li {
   display: inline-block;
   padding-right: 10px;
 }
 
+/* general main */
+
+main section, footer{
+  margin-top:3%;
+}
 /* 1rem equivale al font specificato nel body,
 nel nostro caso 1rem 16px
 quindi ad esempio 1.2rem sarà uguale a 16 * 1.2 pixel */
@@ -76,13 +82,12 @@ ul.navbar-language :not(li:last-child) a {
   }
 }
 /* fine jumbo */
-
+/* inizio prima sezione */
 .go img, .bike img{
   height:400px;
-  width: 400px;
 }
 
-h2{
+#prodotti h2{
   font-weight:600;
 }
 
@@ -94,4 +99,38 @@ h3{
 }
 .go img{
   margin:auto;
+}
+/* end sezione prodotti */
+/* inizio steps */
+#steps .anziano{
+  background-image: url(../img/index-banner.1f6fd0a.jpg);
+  height:400px;
+  background-size: cover;
+  background-repeat:no-repeat;
+
+}
+#steps h2{
+  font-weight:500;
+}
+
+#steps .container .iphone{
+  height: 400px;
+  margin-top:200px;
+}
+.sra {
+  height:500px;
+  border: 1px solid black;
+}
+#steps .col-lg-4 {
+  position: relative;
+}
+.testo-how{
+  position:absolute;
+  bottom:0;
+  right:20px;
+}
+.testo-step{
+  position: absolute;
+  bottom:0;
+  left:20px;
 }
