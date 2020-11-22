@@ -141,17 +141,18 @@ h3{
   height:500px;
   background-size: contain;
   background-repeat: no-repeat;
-  margin-top:30%;
+  margin-top:20%;
 }
 .ht-mob{
   height:300px;
+  border:1px solid black;
 }
 #mobility .row{
   position:relative;
 }
 #mobility .text-mobility{
   position:absolute;
-  top:60%;
+  top:90%;
   left:75%;
   transform: translate(-50%, -50%);
   color:white;
@@ -161,4 +162,51 @@ h3{
   text-decoration: none;
   color:white;
   padding-left: 50px;
+}
+/* fine sezione mobility */
+/* inizio sezione app */
+.ht-app{
+  height: 300px;
+  border:1px solid black;
+
+}
+/* .app .row .row [class*="col-"] {
+  background-color: green;
+} */
+.ht-app .row .row{
+  padding:30px;
+  }
+
+.ph-turin{
+  background-image:url(../img/turin.jpg);
+  height: 300px;
+  background-size: cover;
+}
+
+/* fine sezione app */
+/* inizio sezione family */
+.ph-family{
+  background-image:url();
+  height:300px;
+  background-size:cover;
+  background-repeat:no-repeat;
+
+}
+.ht-family{
+  height: 300px;
+  background-color: pink;
+}
+.riquadro{
+  background-color: white;
+  height: 100px;
+  width: 300px;
+}
+#family .col-lg-12{
+  position: relative;
+}
+.riquadro, .testo-family {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
 }
