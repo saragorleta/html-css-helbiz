@@ -29,6 +29,7 @@ ul.navbar-language li {
 main section, footer{
   margin-top:3%;
 }
+
 /* 1rem equivale al font specificato nel body,
 nel nostro caso 1rem 16px
 quindi ad esempio 1.2rem sarà uguale a 16 * 1.2 pixel */
@@ -82,7 +83,7 @@ ul.navbar-language :not(li:last-child) a {
   }
 }
 /* fine jumbo */
-/* inizio prima sezione */
+/* inizio prima sezione prodotti */
 .go img, .bike img{
   height:400px;
 }
@@ -100,8 +101,8 @@ h3{
 .go img{
   margin:auto;
 }
-/* end sezione prodotti */
-/* inizio steps */
+/* fine sezione prodotti */
+/* inizio sezione steps */
 #steps .anziano{
   background-image: url(../img/index-banner.1f6fd0a.jpg);
   height:400px;
@@ -119,7 +120,6 @@ h3{
 }
 .sra {
   height:500px;
-  border: 1px solid black;
 }
 #steps .col-lg-4 {
   position: relative;
@@ -133,4 +133,32 @@ h3{
   position: absolute;
   bottom:0;
   left:20px;
+}
+/* fine sezione steps */
+/* inizio sezione mobility */
+.cespuglio{
+  background-image:url(../img/scooter.f0a0397.jpg);
+  height:500px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top:30%;
+}
+.ht-mob{
+  height:300px;
+}
+#mobility .row{
+  position:relative;
+}
+#mobility .text-mobility{
+  position:absolute;
+  top:60%;
+  left:75%;
+  transform: translate(-50%, -50%);
+  color:white;
+  padding-bottom: 80px;
+}
+.text-mobility a{
+  text-decoration: none;
+  color:white;
+  padding-left: 50px;
 }
