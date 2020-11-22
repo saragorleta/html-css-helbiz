@@ -186,7 +186,7 @@ h3{
 /* fine sezione app */
 /* inizio sezione family */
 .ph-family{
-  background-image:url();
+  background-image:url(../img/family.jpg);
   height:300px;
   background-size:cover;
   background-repeat:no-repeat;
@@ -194,7 +194,7 @@ h3{
 }
 .ht-family{
   height: 300px;
-  background-color: pink;
+
 }
 .riquadro{
   background-color: white;
@@ -209,4 +209,58 @@ h3{
   top:50%;
   left:50%;
   transform:translate(-50%, -50%);
+}
+#family p{
+  padding-bottom:5px;
+  font-size: 30px;
+}
+.fab{
+  margin-left: 10px;
+  padding-right:15px;
+  font-size:20px;
+}
+/* fine sezione family */
+/* inizio footer */
+.ph-foot{
+  background-color: black;
+}
+.row .logo-footer{
+  background-color:white;
+}
+.box h4{
+  padding-top:80px;
+  color:white;
+  font
+}
+.box p{
+  color:grey;
+}
+.box h4, p{
+  margin-top: 10px;
+}
+ .box hr{
+  margin-top:40px;
+  color:grey;
+}
+.nav-foot .fab{
+  margin:40px 0;
+  color:white;
+}
+.nav-foot p{
+  margin:40px 0;
+  color:white;
+}
+.nav-foot hr{
+margin-bottom: 40px;
+}
+.badge{
+  position: relative;
+}
+.badge .col-lg-12{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  margin-top:80px;
+  
 }
